@@ -9,9 +9,10 @@ planet.loadAtmosphereModel('../atmdata/Earth/earth-gram-avg.dat', 0 , 1 ,2, 3)
 
 # Create a vehicle object flying in the target planet atmosphere.
 
-# Set up the vehicle : m = 300 kg, beta = 78.0, L/D = 0.35, A = 3.1416, AoA = 0, RN = 1.54
+# Set up the vehicle : 
+# vehicle = Vehicle('X', m = 300 kg, beta = 78.0, L/D = 0.35, A = 3.1416, AoA = 0, RN = 1.54, planet)
 
-vehicle = Vehicle('Starship', 90000.0, 350.0, 0.30, 25.0, 80.0, 1.50, planet)
+vehicle = Vehicle('Starship', 120000.0, 190.0, 0.30, 65.0, 80.0, 0.50, planet)
 
 # Set up entry parameters
 # h0 = 180 km, LON = 0 deg, LAT = 0 deg
